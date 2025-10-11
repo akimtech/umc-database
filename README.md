@@ -9,6 +9,4 @@ psql -U postgres -d umc_db -f postgresql/2_insert_data.sql
 
 # Step 3 – Run example SELECT queries
 psql -U postgres -d umc_db -f postgresql/3_select_examples.sql
-
-
 ```
