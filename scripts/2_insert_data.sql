@@ -1,5 +1,7 @@
 -- Connect to database
+/*
 \c umc_db;
+*/
 
 -- Insert Doctors
 INSERT INTO doctor_tbl (first_name, last_name, specialty, phone_number, email) VALUES
@@ -24,3 +26,4 @@ INSERT INTO schedule_tbl (doctor_id, patient_id, appointment_date, reason) VALUE
 (3, 3, '2025-10-13 14:00:00', 'Headache Consultation'),
 (4, 4, '2025-10-14 10:30:00', 'Child Vaccination'),
 (5, 5, '2025-10-15 15:00:00', 'Back Pain Follow-up');
+
