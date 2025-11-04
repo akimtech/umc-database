@@ -1,6 +1,7 @@
+/*
 CREATE DATABASE umc_db;
 \c umc_db;
-
+*/
 
 -- ==============================
 -- TABLE: doctor_tbl
@@ -37,3 +38,4 @@ CREATE TABLE schedule_tbl (
     appointment_date TIMESTAMP NOT NULL,
     reason VARCHAR(255)
 );
+
