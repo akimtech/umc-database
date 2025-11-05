@@ -1,5 +1,6 @@
+/*
 \c umc_db;
-
+*/
 -- 1️⃣ View all doctors
 SELECT * FROM doctor_tbl;
 
@@ -69,3 +70,4 @@ FROM schedule_tbl s
 JOIN patient_tbl p ON s.patient_id = p.patient_id
 JOIN doctor_tbl d ON s.doctor_id = d.doctor_id
 WHERE d.first_name = 'Fatima' AND d.last_name = 'Zahid';
+
